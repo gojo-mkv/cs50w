@@ -20,3 +20,7 @@ print(s)
 s.remove(3)
 print(s)
 print(f"The set has {len(s)} elements")
+
+# For loop
+for i in s:
+    print(i)
