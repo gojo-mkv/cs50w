@@ -4,4 +4,7 @@ class Point():
         # Allow data to be stored inside the object
         self.x = x
         self.y = y
-        
+    
+p = Point(2, 8)
+print(p.x)
+print(p.y)
