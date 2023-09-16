@@ -36,3 +36,8 @@ def square(x):
 for i in range(10):
     print(f"The square of {i} is {square(i)}")
 
+# To import from another file, use
+    # from filename import function_name
+# Or
+    # import filename
+    # filename.function_name()
