@@ -41,3 +41,13 @@ for i in range(10):
 # Or
     # import filename
     # filename.function_name()
+
+# Exceptions
+x = int(input("x:"))
+y = int(input("y:"))
+
+try:
+    result = x / y
+    print(result)
+except ZeroDivisionError:   # Or ValueErro
+    print("Cannot divide by 0")
