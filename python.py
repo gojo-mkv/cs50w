@@ -22,5 +22,6 @@ print(s)
 print(f"The set has {len(s)} elements")
 
 # For loop
-for i in s:
+for element in s:
     print(i)
+
