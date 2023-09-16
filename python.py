@@ -23,5 +23,8 @@ print(f"The set has {len(s)} elements")
 
 # For loop
 for element in s:
-    print(i)
+    print(element)
 
+# Dictionary
+houses = {"Harry": "Gryffindor", "Draco": "Slytherin"}
+print(houses["Harry"])
