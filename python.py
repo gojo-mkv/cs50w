@@ -29,3 +29,10 @@ for element in s:
 houses = {"Harry": "Gryffindor", "Draco": "Slytherin"}
 print(houses["Harry"])
 houses["Hermione"] = "Gryffindor"
+
+# Functions
+def square(x):
+    return x * x
+for i in range(10):
+    print(f"The square of {i} is {square(i)}")
+
